@@ -15,15 +15,15 @@ function Experience() {
   const expereinces = [
     {
       name: "Bitshala.in",
-      role: "Full Stack Developer",
-      url: "https://www.rapidops.com",
-      start: "January 2021",
+      role: "Frontend Developer",
+      url: "https://dev.bitshala.in",
+      start: "December 2023",
       end: "Present",
       shortDescription: [
-        "I had experience working on a large codebase utilizing Kibana and Elasticsearch.",
-        "Throughout my work, I've utilized various MERN stack technologies, including React, Redux, TypeScript, Node.js, Hapi, and Elasticsearch, among others.",
-        "I've also managed a small team that includes Frontend Developers, Backend Developers, and UI/UX Developers.",
-        "Additionally, I've represented the company in client meetings, communicating effectively on their behalf.",
+        "I worked here for 3 months december 2023 to march 2024",
+        "Led API integration using Next.js, Tailwind, and TypeScript, enhancing web app functionality and responsiveness during a frontend developer internship.",
+        "Boosted user traffic by 100 % through impactful UI design and optimized web pages,contributing to improved engagement metrics.",
+        "Proficiency in: Next.js, Tailwind, TypeScript, Redux Toolkit, Git & GitHub, and Vercelfor web deployment, version control, and efficient project deployment"
       ],
     },
 

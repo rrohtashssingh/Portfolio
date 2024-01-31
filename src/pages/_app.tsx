@@ -7,7 +7,7 @@ import "@/scss/index.scss";
 // Define font styles
 const GlobalStyle = createGlobalStyle`
   :root {
-    --raleway: 'Raleway', sans-serif;
+    --raleway: '', sans-serif;
     --fira-code: 'Fira Code', monospace;
   }
 `;
@@ -19,7 +19,7 @@ const MainContainer = styled.div`
 `;
 
 const MyAppContent = styled.div`
-  font-family: var(--raleway);
+  font-family: var(--);
   text-align: center;
 `;
 

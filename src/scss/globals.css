@@ -22,7 +22,7 @@
 
 html,
 body {
-  padding:0 10px;
+  padding:0 80px;
   scroll-behavior: smooth !important;
 }
 
@@ -61,5 +61,17 @@ html {
   background-color: var(--dark-slate);
   border: 3px solid var(--background-color);
   border-radius: 10px;
+}
+
+@media screen and (max-width: 980px) {
+  html,body{
+    padding: 0 30px;
+  }
+};
+
+@media screen and (max-width: 580px) {
+ html, body{
+    padding: 0 5px;
+  }
 }
 

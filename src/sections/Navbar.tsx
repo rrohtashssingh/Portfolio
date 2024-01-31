@@ -19,11 +19,16 @@ function Navbar() {
   ];
 
   useEffect(() => {
-    window.addEventListener("scroll", () => {
-      window.pageYOffset > 100
-        ? setNavbarVisible(true)
-        : setNavbarVisible(false);
-    });
+    const handleScroll = () => {
+      setNavbarVisible(window.scrollY > 100);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      // Cleanup the event listener when the component unmounts
+      window.removeEventListener('scroll', handleScroll);
+    };
   }, []);
 
   useEffect(() => {

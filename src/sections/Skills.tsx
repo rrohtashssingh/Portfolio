@@ -33,7 +33,6 @@ function About() {
                     <Image width={100} height={100} src="/assets/sass.png" alt="css" />
                     <Image width={100} height={100} src="/assets/typescript.png" alt="css" />
                     <Image width={100} height={100} src="/assets/redux.png" alt="css" />
-                    <Image width={100} height={100} src="/assets/node.png" alt="css" />
                     <Image width={100} height={100} src="/assets/html.png" alt="css" />
                     <Image width={100} height={100} src="/assets/figma.png" alt="css" />
                     <Image width={100} height={100} src="/assets/git.png" alt="css" />
@@ -43,11 +42,12 @@ function About() {
                     <Image width={100} height={100} src="/assets/webpack.png" alt="css" />
                     <Image width={100} height={100} src="/assets/mu5.png" alt="css" />
                     <Image width={100} height={100} src="/assets/mongodb.png" alt="css" />
+                    <Image width={100} height={100} src="/assets/nextjs.svg" alt="css" />
 
                 </div>
             </div>
         </motion.div>
     );
-}
+};
 
 export default About;

@@ -11,7 +11,11 @@ import { motion } from "framer-motion";
 
 function SocialIcons() {
   const socialLinks = [
-    { name: "Github", icon: <FiGithub />, link: "https://github.com/rrohtashssingh" },
+    {
+      name: "Github",
+      icon: <FiGithub />,
+      link: "https://github.com/rrohtashssingh"
+    },
     {
       name: "LinkedIn",
       icon: <FiLinkedin />,
